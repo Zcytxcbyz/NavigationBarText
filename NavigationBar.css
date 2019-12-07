@@ -1,0 +1,56 @@
+/* CSS Document */
+.NavigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.NavigationBar li {
+    float: left;
+}
+
+.NavigationBar li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+	padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavigationBar li a:hover, li:hover, .dropbtn {
+    background-color: #111;
+}
+
+.NavigationBar .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.NavigationBar .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.NavigationBar .dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.NavigationBar li:hover .dropdown-content {
+    display: block;
+}
+.NavigationBar .active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.NavigationBar .active:hover {
+    background-color:#5CB860;
+    color: white;
+}
